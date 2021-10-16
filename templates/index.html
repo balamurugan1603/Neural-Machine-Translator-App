@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <title>Translate</title>
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  </head>
+  <body>
+    <h1 align="center" style="margin-top: 40px">Neural Machine Translator</h1>
+    <h3 align="center">
+      Developed by:
+      <a link href="https://www.linkedin.com/in/bala-murugan-62073b212/"
+        >Balamurugan P</a
+      >
+    </h3>
+    <form style="margin: 0 auto;" action="#" method="post">
+      <div style="display: flex; flex-direction: row; margin-top: 30px; justify-content: center">
+        <div>
+          <h2 align="left" style="margin-left: 36px">English :</h2>
+          <textarea style="margin-left: 36px;" name="source" placeholder="Enter Text to be Translated...">
+{{source_text}}</textarea
+          >
+        </div>
+        <div>
+          <h2 align="left" style="margin-left: 36px">Italian :</h2>
+          <textarea
+            style="margin-left: 36px;"
+            readonly
+            name="target"
+            id=""
+            placeholder="Translated text appears here..."
+          >
+{{translated_text}}</textarea
+          >
+        </div>
+      </div>
+      <div align="center" style="margin-top: 55px">
+        <input
+          type="submit"
+          value="Translate"
+          style="
+            cursor: pointer;
+            height: 30px;
+            width: 120px;
+            background-color: rgb(252, 247, 251);
+          "
+        />
+      </div>
+    </form>
+    <a
+      href="https://github.com/balamurugan1603/English-to-Italian-Neural-Machine-Translator"
+    >
+      <div style="position: absolute; left: 47%; bottom: 2%;">
+        <div
+          style="
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            bottom: 0;
+          "
+        >
+          <img
+            style="height: 50px; width: auto"
+            src="{{url_for('static', filename='Octocat.png')}}"
+            alt="GitHub Logo"
+          />
+          <h2 style="font-size: 20px">GitHub</h2>
+        </div>
+      </div>
+    </a>
+  </body>
+</html>

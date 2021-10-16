@@ -1,0 +1,48 @@
+body {
+  background-color: #f9c5d1;
+  background: linear-gradient(to left top, #fac4d0 20%, #9357d8 90%) fixed;
+}
+
+textarea {
+  background-color: rgb(252, 247, 251);
+  border-radius: 10px;
+  height: 200px;
+  width: 600px;
+  border: 10px solid rgb(252, 247, 251);
+  font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+}
+
+input {
+  font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+}
+
+h1 {
+  font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+  font-size: 38px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  line-height: 26.4px;
+}
+
+h2 {
+  font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  line-height: 26.4px;
+}
+
+h3 {
+  font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  line-height: 26.4px;
+}
+
