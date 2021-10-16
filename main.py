@@ -81,4 +81,6 @@ def translator():
                                source_text=source_text,
                                translated_text=translated_text)
 
-
+if __name__ == "__main__":
+    app.run()
+    
