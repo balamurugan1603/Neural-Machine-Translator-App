@@ -12,7 +12,8 @@ Azure Web apps
 1. Install python 3.9 in your local machine.
 2. Install GitLFS.
 3. Clone the repository using ```git lfs clone <url>```
-4. Create virtual environment and install packages using ```pip install -r requirements.txt```
+4. Ignore ```.github``` directory. It is for deployment purpose. Deleting it locally won't cause any harm.
+5. Create virtual environment and install packages using ```pip install -r requirements.txt```
 
 # Running the app
 1. In the terminal go to the local git repository where you have cloned this repo.
