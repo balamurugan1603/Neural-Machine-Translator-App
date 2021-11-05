@@ -4,8 +4,8 @@ This is a Translator app which can translate text from english to italian using 
 
 # Tech Stack
 Tensorflow<br>
-HTML, CSS<br>
 Flask<br>
+HTML, CSS<br>
 Azure Web apps
 
 # Installation
