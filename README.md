@@ -1,4 +1,6 @@
 # Neural Machine Translator App
+[![Website cv.lbesson.qc.to](https://img.shields.io/website-up-down-green-red/http/cv.lbesson.qc.to.svg)](http://cv.lbesson.qc.to/)
+
 This is a Translator app which can translate text from english to italian using NLP. More details about the NLP model architecture can be found here - https://github.com/balamurugan1603/English-to-Italian-Neural-Machine-Translator.
 <br>The app was tested locally and deployed in Azure.
 
