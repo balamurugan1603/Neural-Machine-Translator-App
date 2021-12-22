@@ -1,5 +1,5 @@
 # Neural Machine Translator App
-[![Website cv.lbesson.qc.to](https://img.shields.io/website-up-down-green-red/http/cv.lbesson.qc.to.svg)](http://cv.lbesson.qc.to/) &nbsp; [![Azure](https://badgen.net/badge/icon/azure?icon=azure&label)](https://azure.microsoft.com) &nbsp; ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white&labelColor=545454)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fshields.io%2Fcategory%2Fmonitoring) &nbsp; [![Azure](https://badgen.net/badge/icon/azure?icon=azure&label)](https://azure.microsoft.com) &nbsp; ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white&labelColor=545454)
 
 This is a Translator app which can translate text from english to italian using NLP. More details about the NLP model architecture can be found here - https://github.com/balamurugan1603/English-to-Italian-Neural-Machine-Translator.
 <br>The app was tested locally and deployed in Azure.
